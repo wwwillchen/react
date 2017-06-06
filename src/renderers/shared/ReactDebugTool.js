@@ -304,7 +304,7 @@ if (__DEV__) {
 
     performance.clearMarks(markName);
     if (measurementName) {
-      performance.clearMeasures(measurementName);
+      // performance.clearMeasures(measurementName);
     }
   };
 
