@@ -299,7 +299,7 @@ function markEnd(debugID, markType) {
 
   performance.clearMarks(markName);
   if (measurementName) {
-    performance.clearMeasures(measurementName);
+    // performance.clearMeasures(measurementName);
   }
 }
 
